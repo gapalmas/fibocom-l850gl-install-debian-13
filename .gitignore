@@ -1,0 +1,27 @@
+# Logs y archivos temporales
+*.log
+logs/
+temp/
+tmp/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de backup
+*.bak
+*.orig
+*~
+
+# Archivos de configuración local específicos
+config.local
+*.local
+
+# Información sensible (si se agrega en el futuro)
+*.key
+*.pem
+credentials/
+
+# Archivos de depuración
+debug/
+*.debug
