@@ -1,10 +1,10 @@
-# Fibocom L850-GL WWAN Troubleshooting
+# Fibocom L850-GL WWAN Install on Debian
 
 **Autor**: gapalmas  
 **Email**: gapalmasolano@gmail.com  
 **Fecha**: Septiembre 2025
 
-Proyecto completo para diagnosticar y configurar el módulo WWAN Fibocom L850-GL en sistemas Linux.
+Guía completa de instalación y configuración del módulo WWAN Fibocom L850-GL en Debian/Ubuntu Linux.
 
 ## Estado del diagnóstico: ✅ RESUELTO
 
@@ -72,11 +72,21 @@ Tu módulo WWAN está **correctamente detectado y funcionando**. Solo necesitas 
 
 ## 🎯 Casos de uso
 
-Este proyecto es útil para:
-- **Usuarios con Fibocom L850-GL** que no es reconocido por ModemManager
-- **ThinkPad T480/T580/X1 Gen 6** con módems Intel XMM7360
-- **Debian/Ubuntu/Linux** que necesiten configurar WWAN manualmente
-- **Desarrolladores** que trabajen con drivers iosm y modo RPC
+Esta guía es útil para:
+- **Usuarios con Fibocom L850-GL** en laptops Lenovo ThinkPad
+- **Debian 13 Trixie/Ubuntu** que necesiten configurar WWAN
+- **Intel XMM7360 modems** con driver iosm
+- **Instalación completa** desde hardware hasta interfaz gráfica
+
+## 🚀 Qué incluye esta guía
+
+✅ **Detección y diagnóstico** de hardware  
+✅ **Configuración de drivers** (iosm)  
+✅ **Setup de ModemManager** con workarounds  
+✅ **Interfaz gráfica completa** (como WiFi manager)  
+✅ **Instalación física** (SIM + antenas)  
+✅ **Scripts automatizados** para todo el proceso  
+✅ **Troubleshooting completo** paso a paso
 
 ## 🤝 Contribuciones
 

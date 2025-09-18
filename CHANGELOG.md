@@ -4,7 +4,7 @@
 
 ### 🎉 Initial Release
 
-**Fibocom L850-GL WWAN Complete Solution**
+**Fibocom L850-GL WWAN Complete Installation Guide for Debian**
 
 #### ✅ Features Implemented
 - **Hardware Detection**: Automatic detection of Intel XMM7360 LTE modem
