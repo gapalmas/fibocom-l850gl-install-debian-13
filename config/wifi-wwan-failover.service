@@ -1,0 +1,16 @@
+[Unit]
+Description=WiFi to WWAN Failover Monitor
+After=network.target ModemManager.service
+Wants=network.target
+
+[Service]
+Type=forking
+User=root
+ExecStart=/home/develop/Downloads/Fibocom/scripts/wifi_wwan_failover.sh start
+ExecStop=/home/develop/Downloads/Fibocom/scripts/wifi_wwan_failover.sh stop
+PIDFile=/tmp/wifi_failover.pid
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
