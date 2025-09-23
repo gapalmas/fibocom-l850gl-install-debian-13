@@ -1,0 +1,19 @@
+[connection]
+id=BAIT Mobile Data
+type=generic
+interface-name=wwan0
+autoconnect=true
+
+[generic]
+
+[ipv4]
+method=manual
+address1=196.10.234.214/32
+dns=10.5.100.100;10.1.101.94;
+dns-search=
+
+[ipv6]
+addr-gen-mode=stable-privacy
+method=auto
+
+[proxy]
