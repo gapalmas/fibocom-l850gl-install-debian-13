@@ -136,7 +136,7 @@ sudo modprobe -r iosm && sudo modprobe iosm
 
 ## 🔧 Configuración BAIT México
 
-Para usuarios de BAIT (Banco Azteca Internet):
+Para usuarios de BAIT (OMV de walmart):
 ```bash
 ./scripts/configure_bait_mexico.sh
 ```
